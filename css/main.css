@@ -100,14 +100,14 @@ body{
   background-repeat: no-repeat;
   background-size:contain , 100%;
   background-blend-mode:normal , overlay;
-  background-position: calc(50% + 360px) top, center center;
+  background-position: calc(50% + 405px) top, center center;
   background-color: #F3D7B7;
 }
 
 .hero::before{
   position: absolute;
   top: -60px;
-  left: calc(50% - 55px);
+  left: calc(50% - 8px);
   display: block;
   width: 160px;
   height: 160px;
@@ -151,4 +151,116 @@ body{
   background: #0A775F;
   border-radius: 100px;
   text-decoration: none;
+}
+
+/* .................................COLLECTION........................................ */
+
+.collection{
+  position: relative;
+  padding: 20px;
+}
+
+.collection::before{
+  position: absolute;
+  top: 60px;
+  left: calc(50% - 860px);
+  display: block;
+  width: 403px;
+  height: 300px;
+  background-image: url("../img/Vector.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+}
+
+.collection::after{
+  position: absolute;
+  bottom: 550px;
+  left: calc(50% + 575px);
+  display: block;
+  width: 392px;
+  height: 477px;
+  background-image: url("../img/Group3646.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+}
+
+.collection__cover{
+  background-image: url("../img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-position: calc(50%) 0;
+  background-size:1440px 1789px;
+
+}
+
+.collection__cover::after{
+  position: absolute;
+  bottom: 150px;
+  left: calc(50% - 935px);
+  display: block;
+  width: 316px;
+  height: 296px;
+  background-image: url("../img/Vector1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+}
+
+.collection__title{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #000000;
+  margin: 0px;
+  padding: 80px;
+  text-align: center;
+}
+
+.collection__list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.collection__item{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.collection__item:nth-child(even){
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.collection__list__info{
+  width: 453px;
+  margin-left: 117px;
+}
+
+.collection__list__title{
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+}
+
+.collection__list__text{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
 }
