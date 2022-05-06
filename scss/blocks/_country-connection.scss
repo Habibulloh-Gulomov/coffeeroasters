@@ -1,0 +1,76 @@
+
+.country{
+  margin-bottom: 50px;
+  width: 100%;
+  background-image: url("../img/Rectangle.png");
+  background-color: #0A775F;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-size: 100%;
+}
+
+.country__inner{
+  position: relative;
+  padding: 50px 0;
+}
+
+.country__title{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #FFFFFF;
+}
+
+.country__list{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 60px;
+  list-style: none;
+}
+
+.country__item{
+  margin: 0px;
+  padding: 0px;
+  padding: 140px 182px 40px 20px;
+  margin-right: 20px;
+  width: 433px;
+  background: #F8F8F2;
+}
+
+.country__info{
+  position: relative;
+  width: 180px;
+}
+
+.country__map{
+  position: absolute;
+  bottom: 155px;
+  left: 258px;
+}
+
+.country__item__title{
+  margin: 0px;
+  padding: 0;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  font-variant: small-caps;
+  color: #333333;
+}
+
+.country__item__text{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333333;
+}
+

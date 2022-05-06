@@ -1,0 +1,116 @@
+.site__middle{
+  margin-bottom: 280px;
+
+  
+.middle{
+  width: 100%;
+  background-image: url("../img/Rectangle.png");
+  background-color: #C99B67;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-size: 100%;
+}
+
+.middle__inner{
+  height: 675px;
+  position: relative;
+  padding-top: 50px;
+}
+
+.info{
+  margin: 0 auto;
+  width: 550px;
+}
+
+.info__title{
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #FFFFFF;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 0px;
+}
+
+.info__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin: 0px;
+  padding: 0px;
+}
+
+.middle__list{
+  display: flex;
+  position: absolute;
+  bottom: -190px;
+  left: calc(50% - 650px);
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.middle__list::before{
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 730px);
+  display: block;
+  width: 140px;
+  height: 144px;
+  background-image: url("../img/letter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+}
+
+.middle__item{
+  margin: 0;
+  padding: 0 ;
+  padding-right: 20px;
+}
+
+.middle__cover{
+  width: 377px;
+}
+
+.middle__title{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 28px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  font-variant: small-caps;
+  color: #333333;
+}
+
+.middle__text{
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333333;
+}
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .middle-list::before{
+    background-image: url("../img/group@2x.png");
+  }
+} 

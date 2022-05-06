@@ -1,0 +1,35 @@
+
+.footer{
+  padding: 40px 0;
+  background-image: url("../img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #F3D7B7;
+  background-blend-mode: overlay;
+
+  .footer__inner{
+    display: flex;
+  }
+  
+  .footer__nav{
+    margin-left: 246px ;
+  }
+  
+  .footer__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 331px;
+    list-style: none;
+  }
+  
+  .footer__link{
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  
+  .footer__link-active{
+    text-decoration: none;
+    margin: 0;
+  }
+}
