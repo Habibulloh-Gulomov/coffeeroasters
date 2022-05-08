@@ -1,0 +1,67 @@
+.step{
+  position: relative;
+  padding: 100px 0px 249px 100px;
+  background-image: url("../img/making.png"), url("../img/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size:contain , 100%;
+  background-blend-mode:normal , overlay;
+  background-position: calc(50% + 405px) top, center center;
+  background-color: #F3D7B7;
+
+  &::before{
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 8px);
+    display: block;
+    width: 160px;
+    height: 160px;
+    background-image: url('../img/coffee.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+  }
+}
+    
+
+
+.step__inner{
+ width: 372px;
+}
+
+.step__title{
+ font-weight: 700;
+ font-size: 64px;
+ line-height: 75px;
+ color: #000000;
+ margin: 0px;
+ margin-bottom: 24px;
+}
+
+.step__text{
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px;
+ color: #000000;
+ margin: 0px;
+ margin-bottom: 34px;
+}
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+ .step{
+  background-image: url("../img/making@2x.png");
+ }
+.step::before{
+  background-image: url("../img/image40@2x.png");
+}
+
+
+}

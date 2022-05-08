@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cofferoasters</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="site__logo" href="./index.html">
+          <img class="site__logo__img" src="./img/sitelogo.svg" alt="site logo" srcset="./img/sitelogo.svg 1x, ./img/sitelogo@2x.svg 2x" width="235" height="24">
+        </a>
+        <nav class="nav">
+          <ol class="nav__list">
+            <li class="nav__item nav__item__home">
+              <a href="./index.html" class="nav__link">HOME</a>
+            </li>
+            <li class="nav__item">
+              <a href="./about.html" class="nav__link">ABOUT US</a>
+            </li>
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link">CREATE YOUR PLAN</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="step">
+      <div class="container">
+        <div class="step__inner">
+          <h1 class="step__title"> Create plan</h1>
+          <p class="step__text">Coffee the way you wanted it to be. For coffee delivered tomorrow, or next week. For whatever brew method you use. For choice, for convenience, for quality.</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="site__plantop">
+      <div class="plantop">
+        <div class="container">
+          <div class="plantop__inner">
+            <div class="plantop__checkbox">
+              <span class="plantop__checkbox__span"></span>
+              <span class="plantop__checkbox__span"></span>
+              <span class="plantop__checkbox__span--active"></span>
+            </div>
+            <ul class="plantop__list">
+              <li class="plantop__item">
+                <span class="plantop__item__span">01</span>
+                <h3 class="plantop__item__title">Pick your coffee</h3>
+                <p class="plantop__item__text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+              </li>
+              <li class="plantop__item">
+                <span class="plantop__item__span">02</span>
+                <h3 class="plantop__item__title">Choose the frequency</h3>
+                <p class="plantop__item__text">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+              </li>
+              <li class="plantop__item">
+                <span class="plantop__item__span">03</span>
+                <h3 class="plantop__item__title">Receive and enjoy!</h3>
+                <p class="plantop__item__text">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience..</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="planmiddle">
+      <div class="planmiddle__cover">
+        <div class="container">
+          <div class="planmiddle__inner">
+            <div class="planmiddle__left left">
+              <p class="left__text">01 Preferences</p>
+              <p class="left__text">02 Bean Type</p>
+              <p class="left__text">03 Quantity</p>
+              <p class="left__text">04 Grind Option</p>
+              <p class="left__text--last">05 Deliveries</p>
+            </div>
+            <div class="planmiddle__right plan">
+              <form class="plan__form" action="https://echo.htmlacademy.ru/courses" method="post">
+                <ul class="plan__list">
+                  <li class="question"><h2 class="questions">How do you drink your coffee?</h2> <button type="button" class="question__opener"><svg width="18" height="11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.333.784a1.667 1.667 0 0 0-2.35 0L9 6.684 3.1.784A1.667 1.667 0 1 0 .75 3.151l7.066 7.066a1.667 1.667 0 0 0 2.367 0l7.15-7.066a1.667 1.667 0 0 0 0-2.367Z" fill="#333"/></svg></button></li>
+                  <li class="plan__item item">
+                    <label >
+                      <input class="item__input visually-hidden" type="radio" name="drink coffe" value="capsule">
+                      <span class="item__span">
+                        <strong class="item__title">Capsule</strong>Compatible with Nespresso systems and similar brewers
+                      </span>
+                    </label>
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="drink coffe" value="filter">
+                      <span class="item__span">
+                        <strong class="item__title">Filter</strong>For pour over or drip methods like Aeropress, Chemex, and V60
+                      </span>
+                    </label>
+                    <label >
+                      <input class="item__input visually-hidden" type="radio" name="drink coffe" value="expresso">
+                      <span class="item__span">
+                        <strong class="item__title">Espresso</strong>Dense and finely ground beans for an intense, flavorful experience
+                      </span>
+                    </label>
+                  </li>
+
+                  <li class="question"><h2 class="questions">What type of coffee?</h2> <button type="button" class="question__opener"><svg width="18" height="11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.333.784a1.667 1.667 0 0 0-2.35 0L9 6.684 3.1.784A1.667 1.667 0 1 0 .75 3.151l7.066 7.066a1.667 1.667 0 0 0 2.367 0l7.15-7.066a1.667 1.667 0 0 0 0-2.367Z" fill="#333"/></svg></button></li>
+                  <li class="plan__item item">
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="type of coffee" value="Single Origin">
+                      <span class="item__span">
+                        <strong class="item__title">Single Origin</strong>Distinct, high quality coffee from a specific family-owned farm
+                      </span>
+                    </label>
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="type of coffee" value="Decaf">
+                      <span class="item__span">
+                        <strong class="item__title">Decaf</strong>Just like regular coffee, except the caffeine has been removed
+                      </span>
+                    </label>
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="type of coffee" value="Blended">
+                      <span class="item__span">
+                        <strong class="item__title">Blended</strong>Combination of two or three dark roasted beans of organic coffees
+                      </span>
+                    </label>
+                  </li>
+
+                  <li class="question"><h2 class="questions">How much would you like?</h2> <button type="button" class="question__opener"><svg width="18" height="11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.333.784a1.667 1.667 0 0 0-2.35 0L9 6.684 3.1.784A1.667 1.667 0 1 0 .75 3.151l7.066 7.066a1.667 1.667 0 0 0 2.367 0l7.15-7.066a1.667 1.667 0 0 0 0-2.367Z" fill="#333"/></svg></button></li>
+                  <li class="plan__item item">
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="choosen cost" value="250g">
+                      <span class="item__span">
+                        <strong class="item__title">250g</strong>Perfect for the solo drinker. Yields about 12 delicious cups.
+                      </span>
+                    </label>
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="choosen cost" value="500g">
+                      <span class="item__span">
+                        <strong class="item__title">500g</strong>Perfect option for a couple. Yields about 40 delectable cups.
+                      </span>
+                    </label>
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="choosen cost" value="1000g">
+                      <span class="item__span">
+                        <strong class="item__title">1000g</strong>Perfect for offices and events. Yields about 90 delightful cups.
+                      </span>
+                    </label>
+                  </li>
+
+                  <li class="question"><h2 class="questions">Want us to grind them?</h2> <button type="button" class="question__opener"><svg width="18" height="11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.333.784a1.667 1.667 0 0 0-2.35 0L9 6.684 3.1.784A1.667 1.667 0 1 0 .75 3.151l7.066 7.066a1.667 1.667 0 0 0 2.367 0l7.15-7.066a1.667 1.667 0 0 0 0-2.367Z" fill="#333"/></svg></button></li>
+                  <li class="plan__item item">
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="grind" value="Wholebean">
+                      <span class="item__span"><strong class="item__title">Wholebean</strong>Distinct, high quality coffee from a specific family-owned farm</span>
+                    </label>
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="grind" value="Filter">
+                      <span class="item__span"><strong class="item__title">Filter</strong>For drip or pour-over coffee methods such as V60 or Aeropress</span>
+                    </label>
+                    <label>
+                      <input class="item__input visually-hidden" type="radio" name="grind" value="Cafetiére">
+                      <span class="item__span"><strong class="item__title">Cafetiére</strong>Course ground beans specially suited for french press coffee</span>
+                    </label>
+                  </li>
+
+                  <li class="question"><h2 class="questions">How often should we deliver?</h2> <button type="button" class="question__opener"><svg width="18" height="11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.333.784a1.667 1.667 0 0 0-2.35 0L9 6.684 3.1.784A1.667 1.667 0 1 0 .75 3.151l7.066 7.066a1.667 1.667 0 0 0 2.367 0l7.15-7.066a1.667 1.667 0 0 0 0-2.367Z" fill="#333"/></svg></button></li>
+                  <li class="plan__item item">
+                    <label >
+                      <input class="item__input visually-hidden" type="radio" name="deliver" value="Every week">
+                      <span class="item__span"> <strong class="item__title">Every week</strong>$7.20 per shipment. Includes free first-class shipping.</span>
+                    </label>
+                    <label  >
+                      <input class="item__input visually-hidden" type="radio" name="deliver" value="Every 2 weeks">
+                      <span class="item__span"><strong class="item__title">Every 2 weeks</strong>$9.60 per shipment. Includes free priority shipping.</span>
+                    </label>
+                    <label >
+                      <input class="item__input visually-hidden" type="radio" name="deliver" value="Every month">
+                      <span class="item__span"> <strong class="item__title">Every month</strong>$12.00 per shipment. Includes free priority shipping.</span>
+                    </label>
+                  </li>
+                  <li class="complited">
+                    <span class="complited__span">Order Summary</span>
+                    <p class="complited__text">“I drink my coffee as <span class="choosen">Filter</span>, with a <span class="choosen">Decaf</span> type of bean. <span class="choosen">250g</span> ground ala <span class="choosen">Cafetiére</span>, sent to me <span class="choosen">Every Week</span>.”</p>
+                  </li>
+                  
+                </ul>
+                <button class="sender" type="submit">Create me plan</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="site__logo" href="./index.html">
+          <img class="site__logo__img" src="./img/sitelogo.svg" srcset="./img/sitelogo.svg 1x, ./img/sitelogo@2x.svg 2x" alt="site logo">
+        </a>
+        <nav class="footer__nav nav">
+          <ol class="nav__list">
+            <li class="nav__item nav__item__home">
+              <a href="./index.html" class="nav__link">HOME</a>
+            </li>
+            <li class="nav__item">
+              <a href="./about.html" class="nav__link">ABOUT US</a>
+            </li>
+            <li class="nav__item">
+              <a href="./createplan.html" class="nav__link">CREATE YOUR PLAN</a>
+            </li>
+          </ol>
+        </nav>
+        <ul class="footer__list">
+          <li class="footer__item"><a class="footer__link" href="https://www.facebook.com/" target="blank">
+            <img class="footer__img"  src="./img/Path.svg" alt="facebok" width="30" height="30">
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="https://www.twitter.com/" target="blank">
+            <img class="footer__img"  src="./img/Path(1).svg" alt="twitter"  width="30" height="30"></a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link--active" href="https://www.instagram.com/" target="blank">
+            <img  class="footer__img"  src="./img/Shape.svg" alt="instagram"  width="30" height="30"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
