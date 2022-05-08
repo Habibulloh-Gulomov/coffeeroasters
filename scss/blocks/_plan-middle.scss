@@ -145,8 +145,9 @@ svg{
 }
 
 
-.item__input:checked ~  .item__label{
+.item__input:checked ~  .item__span{
   background-color:  #0A775F;
+  color: #fff;
 }
 
 .complited{
