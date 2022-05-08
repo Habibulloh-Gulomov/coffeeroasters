@@ -150,6 +150,10 @@ svg{
   color: #fff;
 }
 
+.item__input:checked ~ .item__span > .item__title{
+  color:#fff;
+}
+
 .complited{
   width: 660px;
   margin: 0 0 20px 0;
